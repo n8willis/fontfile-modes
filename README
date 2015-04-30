@@ -46,11 +46,12 @@ and opening a file of the coresponding format.
 If you want Emacs to automatically load the relevant mode whenever
 you open a support file format, just add a hook to your .emacs
 file.  For example, to automatically support .fea files, add
-the line:
+the lines:
 
-(add-hook 'fontfile-fea-mode)
+(add-to-list 'load-path "~/.emacs.d/fontfile-fea-mode.el")
+(require 'fontfile-fea-mode)
 
-Anywhere in your .emacs file.
+anywhere in your .emacs file.
 
 
 USAGE:
