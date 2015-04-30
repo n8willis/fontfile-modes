@@ -1,8 +1,0 @@
-default namespace = ""
-namespace rng = "http://relaxng.org/ns/structure/1.0"
-
-include "contour.rnc" {
-  contour =
-    contour,
-    attribute identifier { xsd:string }?
-}

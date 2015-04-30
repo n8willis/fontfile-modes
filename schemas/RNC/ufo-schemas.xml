@@ -1,5 +1,0 @@
-<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
-<!--  <transformURI fromPattern="*.xml" toPattern="*.rnc"/>-->
-
-  <uri pattern="*.glif" uri="simple-glif2.rnc"/>
-</locatingRules>

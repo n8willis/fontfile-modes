@@ -1,6 +1,0 @@
-namespace rng = "http://relaxng.org/ns/structure/1.0"
-
-image =
-  attribute fileName { xsd:string },
-  transformation,
-  attribute color { color }?

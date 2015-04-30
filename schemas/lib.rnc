@@ -1,3 +1,0 @@
-namespace rng = "http://relaxng.org/ns/structure/1.0"
-
-lib = xsd:string

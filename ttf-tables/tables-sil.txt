@@ -1,5 +1,0 @@
-Silf	Contains the main logic, including finite state machine for rule matching, constraints, and rule action code
-Glat	Glyph attributes table
-Gloc	Indexes for Glat table
-Feat	Feature table, similar to Apple's feat table
-Sill	Language table, containing mappings between language codes and features

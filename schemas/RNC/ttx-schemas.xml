@@ -1,5 +1,0 @@
-<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
-<!--  <transformURI fromPattern="*.xml" toPattern="*.rnc"/>-->
-
-  <uri pattern="*.ttx" uri="ttx-trang.rnc"/>
-</locatingRules>

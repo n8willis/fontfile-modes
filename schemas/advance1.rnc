@@ -1,7 +1,0 @@
-namespace a0 = "http://relaxng.org/ns/compatibility/annotations/1.0"
-namespace a1 = "http://relaxng.org/ns/compatibility/annotations/1.0"
-namespace rng = "http://relaxng.org/ns/structure/1.0"
-
-advance =
-  [ a0:defaultValue = "0" ] attribute width { xsd:decimal }?,
-  [ a1:defaultValue = "0" ] attribute height { xsd:decimal }?

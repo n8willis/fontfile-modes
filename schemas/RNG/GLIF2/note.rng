@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rng:grammar xmlns:rng="http://relaxng.org/ns/structure/1.0" ns="" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
-<rng:define name="note">
-<rng:data type="string"/>
-</rng:define>
-</rng:grammar>

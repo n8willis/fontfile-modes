@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<transformiix:result xmlns:transformiix="http://www.mozilla.org/TransforMiix">XML Parsing Error: XML or text declaration not at start of entity
-Location: http://debeissat.nicolas.free.fr/XSDtoRNG.php
-Line Number 2, Column 1:&lt;?xml version="1.0"?&gt;
-^</transformiix:result>
