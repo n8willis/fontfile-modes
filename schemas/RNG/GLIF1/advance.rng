@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rng:grammar xmlns:rng="http://relaxng.org/ns/structure/1.0" ns="" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+<rng:define name="advance">
+<rng:optional>
+<rng:attribute name="width" a0:defaultValue="0" xmlns:a0="http://relaxng.org/ns/compatibility/annotations/1.0">
+<rng:data type="decimal"/>
+</rng:attribute>
+</rng:optional>
+<rng:optional>
+<rng:attribute name="height" a1:defaultValue="0" xmlns:a1="http://relaxng.org/ns/compatibility/annotations/1.0">
+<rng:data type="decimal"/>
+</rng:attribute>
+</rng:optional>
+</rng:define>
+</rng:grammar>

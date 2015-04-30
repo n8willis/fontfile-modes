@@ -1,0 +1,32 @@
+default namespace = ""
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+
+include "transformation1.rnc"
+include "color.rnc"
+include "point.rnc"
+include "guideline.rnc"
+include "image.rnc"
+include "outline1.rnc"
+include "lib1.rnc"
+include "unicode.rnc"
+include "advance.rnc"
+include "note.rnc"
+include "component.rnc"
+include "contour1.rnc"
+include "anchor.rnc"
+start |= glyph
+glyph =
+  element glyph {
+    element advance { advance }?,
+    element unicode { unicode }*,
+    element note { note }?,
+    element image { image }?,
+    element guideline { guideline }*,
+    element anchor { anchor }*,
+    element outline { outline }?,
+    element lib { lib }?,
+    attribute name {
+      xsd:token { minLength = "1" }
+    }?,
+    attribute format { xsd:decimal }?
+  }

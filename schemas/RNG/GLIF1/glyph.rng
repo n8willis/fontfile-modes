@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rng:grammar xmlns:rng="http://relaxng.org/ns/structure/1.0" ns="" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+<rng:include href="transformation.rng"/>
+<rng:include href="point.rng"/>
+<rng:include href="contour.rng"/>
+<rng:include href="component.rng"/>
+<rng:include href="outline.rng"/>
+<rng:include href="lib.rng"/>
+<rng:include href="unicode.rng"/>
+<rng:include href="advance.rng"/>
+<rng:start combine="choice">
+<rng:ref name="glyph"/>
+</rng:start>
+<rng:define name="glyph">
+<rng:element name="glyph">
+
+
+<rng:optional>
+<rng:element name="advance">
+<rng:ref name="advance"/>
+</rng:element>
+</rng:optional>
+<rng:zeroOrMore>
+<rng:element name="unicode">
+<rng:ref name="unicode"/>
+</rng:element>
+</rng:zeroOrMore>
+<rng:optional>
+<rng:element name="outline">
+<rng:ref name="outline"/>
+</rng:element>
+</rng:optional>
+<rng:optional>
+<rng:element name="lib">
+<rng:ref name="lib"/>
+</rng:element>
+</rng:optional>
+
+<rng:optional>
+<rng:attribute name="name">
+<rng:data type="token"/>
+</rng:attribute>
+</rng:optional>
+<rng:optional>
+<rng:attribute name="format">
+<rng:data type="decimal"/>
+</rng:attribute>
+</rng:optional>
+
+</rng:element>
+</rng:define>
+</rng:grammar>

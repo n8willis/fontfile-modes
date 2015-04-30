@@ -1,0 +1,93 @@
+default namespace = ""
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+
+namespace a0 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a1 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a2 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a3 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a4 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a5 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+
+transformation =
+  [ a0:defaultValue = "1" ] attribute xScale { xsd:decimal }?,
+  [ a1:defaultValue = "0" ] attribute xyScale { xsd:decimal }?,
+  [ a2:defaultValue = "0" ] attribute yxScale { xsd:decimal }?,
+  [ a3:defaultValue = "1" ] attribute yScale { xsd:decimal }?,
+  [ a4:defaultValue = "0" ] attribute xOffset { xsd:decimal }?,
+  [ a5:defaultValue = "0" ] attribute yOffset { xsd:decimal }?
+
+color =
+  xsd:string {
+    pattern = "^((0?(\.\d+)?|1(\.0+)?),\s*){3}(0?(\.\d+)?|1(\.0+)?)$"
+  }
+
+
+point =
+  attribute x { xsd:decimal },
+  attribute y { xsd:decimal },
+  [ a0:defaultValue = "offcurve" ]
+  attribute type { "move" | "line" | "offcurve" | "curve" | "qcurve" }?,
+  [ a1:defaultValue = "no" ] attribute smooth { "yes" | "no" }?,
+  attribute name { xsd:string }?,
+  attribute identifier { xsd:string }?
+
+guideline =
+  attribute x { xsd:decimal }?,
+  attribute y { xsd:decimal }?,
+  attribute angle {
+    xsd:decimal { minInclusive = "0" maxInclusive = "360" }
+  }?,
+  attribute name { xsd:string }?,
+  attribute color { color }?,
+  attribute identifier { xsd:string }?
+
+image =
+  attribute fileName { xsd:string },
+  transformation,
+  attribute color { color }?
+
+outline =
+  (element component { component }
+   | element contour { contour })*
+
+lib = xsd:string
+
+unicode = attribute hex { xsd:hexBinary }
+
+advance =
+  [ a0:defaultValue = "0" ] attribute width { xsd:decimal }?,
+  [ a1:defaultValue = "0" ] attribute height { xsd:decimal }?
+
+note = xsd:string
+
+component =
+  attribute base { xsd:string },
+  transformation,
+  attribute identifier { xsd:string }?
+
+contour = element point { point }*,
+  attribute identifier { xsd:string }?
+
+anchor =
+  attribute x { xsd:decimal },
+  attribute y { xsd:decimal },
+  attribute name { xsd:string }?,
+  attribute color { color }?,
+  attribute identifier { xsd:string }?
+
+start |= glyph
+glyph =
+  element glyph {
+    element advance { advance }?,
+    element unicode { unicode }*,
+    element note { note }?,
+    element image { image }?,
+    element guideline { guideline }*,
+    element anchor { anchor }*,
+    element outline { outline }?,
+    element lib { lib }?,
+    attribute name {
+      xsd:token { minLength = "1" }
+    }?,
+    attribute format { xsd:decimal }?
+  }

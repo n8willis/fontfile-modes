@@ -1,0 +1,6 @@
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+
+color =
+  xsd:string {
+    pattern = "^((0?(\.\d+)?|1(\.0+)?),\s*){3}(0?(\.\d+)?|1(\.0+)?)$"
+  }

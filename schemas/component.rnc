@@ -1,0 +1,8 @@
+default namespace = ""
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+
+include "component1.rnc" {
+  component =
+    component,
+    attribute identifier { xsd:string }?
+}

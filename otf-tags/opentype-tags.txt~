@@ -1,0 +1,646 @@
+Arabic 	arab
+Armenian 	armn
+Avestan 	avst
+Balinese 	bali
+Bamum 	bamu
+Batak 	batk
+Bengali 	beng
+Bengali v.2 	bng2
+Bopomofo 	bopo
+Braille 	brai
+Brahmi 	brah
+Buginese 	bugi
+Buhid 	buhd
+Byzantine Music 	byzm
+Canadian Syllabics 	cans
+Carian 	cari
+Chakma 	cakm
+Cham 	cham
+Cherokee 	cher
+CJK Ideographic 	hani
+Coptic 	copt
+Cypriot Syllabary 	cprt
+Cyrillic 	cyrl
+Default 	DFLT
+Deseret 	dsrt
+Devanagari 	deva
+Devanagari v.2 	dev2
+Egyptian heiroglyphs 	egyp
+Ethiopic 	ethi
+Georgian 	geor
+Glagolitic 	glag
+Gothic 	goth
+Greek 	grek
+Gujarati 	gujr
+Gujarati v.2 	gjr2
+Gurmukhi 	guru
+Gurmukhi v.2 	gur2
+Hangul 	hang
+Hangul Jamo 	jamo
+Hanunoo 	hano
+Hebrew 	hebr
+Hiragana 	kana
+Imperial Aramaic 	armi
+Inscriptional Pahlavi 	phli
+Inscriptional Parthian 	prti
+Javanese 	java
+Kaithi 	kthi
+Kannada 	knda
+Kannada v.2 	knd2
+Katakana 	kana
+Kayah Li 	kali
+Kharosthi 	khar
+Khmer 	khmr
+Lao 	lao
+Latin 	latn
+Lepcha 	lepc
+Limbu 	limb
+Linear B 	linb
+Lisu (Fraser) 	lisu
+Lycian 	lyci
+Lydian 	lydi
+Malayalam 	mlym
+Malayalam v.2 	mlm2
+Mandaic, Mandaean 	mand
+Mathematical Alphanumeric Symbols 	math
+Meitei Mayek (Meithei, Meetei) 	mtei
+Meroitic Cursive 	merc
+Meroitic Hieroglyphs 	mero
+Mongolian 	mong
+Musical Symbols 	musc
+Myanmar 	mymr
+New Tai Lue 	talu
+N'Ko 	nko
+Ogham 	ogam
+Ol Chiki 	olck
+Old Italic 	ital
+Old Persian Cuneiform 	xpeo
+Old South Arabian 	sarb
+Old Turkic, Orkhon Runic 	orkh
+Odia (formerly Oriya) 	orya
+Odia v.2 (formerly Oriya v.2) 	ory2
+Osmanya 	osma
+Phags-pa 	phag
+Phoenician 	phnx
+Rejang 	rjng
+Runic 	runr
+Samaritan 	samr
+Saurashtra 	saur
+Sharada 	shrd
+Shavian 	shaw
+Sinhala 	sinh
+Sora Sompeng 	sora
+Sumero-Akkadian Cuneiform 	xsux
+Sundanese 	sund
+Syloti Nagri 	sylo
+Syriac 	syrc
+Tagalog 	tglg
+Tagbanwa 	tagb
+Tai Le 	tale
+Tai Tham (Lanna) 	lana
+Tai Viet 	tavt
+Takri 	takr
+Tamil 	taml
+Tamil v.2 	tml2
+Telugu 	telu
+Telugu v.2 	tel2
+Thaana 	thaa
+Thai 	thai
+Tibetan 	tibt
+Tifinagh 	tfng
+Ugaritic Cuneiform 	ugar
+Vai 	vai
+Yi 	yi
+Abaza 	ABA 	abq
+Abkhazian 	ABK 	abk
+Adyghe 	ADY 	ady
+Afrikaans 	AFK 	afr
+Afar 	AFR 	aar
+Agaw 	AGW 	ahg
+Alsatian 	ALS 	gsw
+Altai 	ALT 	atv, alt
+Amharic 	AMH 	amh
+Phonetic transcription—Americanist conventions 	APPH
+Arabic 	ARA 	ara
+Aari 	ARI 	aiw
+Arakanese 	ARK 	mhv, rmz, rki
+Assamese 	ASM 	asm
+Athapaskan 	ATH 	apk, apj, apl, apm, apw, nav, bea, sek, bcr, caf, crx, clc, gwi, haa, chp, dgr, scs, xsl, srs, ing, hoi, koy, hup, ktw, mvb, wlk, coq, ctc, gce, tol, tuu, kkz, tgx, tht, aht, tfn, taa, tau, tcb, kuu, tce, ttm, txc
+Avar 	AVR 	ava
+Awadhi 	AWA 	awa
+Aymara 	AYM 	aym
+Azeri 	AZE 	aze
+Badaga 	BAD 	bfq
+Baghelkhandi 	BAG 	bfy
+Balkar 	BAL 	krc
+Baule 	BAU 	bci
+Berber 	BBR
+Bench 	BCH 	bcq
+Bible Cree 	BCR
+Belarussian 	BEL 	bel
+Bemba 	BEM 	bem
+Bengali 	BEN 	ben
+Bulgarian 	BGR 	bul
+Bhili 	BHI 	bhi, bhb
+Bhojpuri 	BHO 	bho
+Bikol 	BIK 	bik
+Bilen 	BIL 	byn
+Blackfoot 	BKF 	bla
+Balochi 	BLI 	bal
+Balante 	BLN 	bjt, ble
+Balti 	BLT 	bft
+Bambara 	BMB 	bam
+Bamileke 	BML
+Bosnian 	BOS 	bos
+Breton 	BRE 	bre
+Brahui 	BRH 	brh
+Braj Bhasha 	BRI 	bra
+Burmese 	BRM 	mya
+Bashkir 	BSH 	bak
+Beti 	BTI 	btb
+Catalan 	CAT 	cat
+Cebuano 	CEB 	ceb
+Chechen 	CHE 	che
+Chaha Gurage 	CHG 	sgw
+Chattisgarhi 	CHH 	hne
+Chichewa 	CHI 	nya
+Chukchi 	CHK 	ckt
+Chipewyan 	CHP 	chp
+Cherokee 	CHR 	chr
+Chuvash 	CHU 	chv
+Comorian 	CMR 	swb, wlc, wni, zdj
+Coptic 	COP 	cop
+Corsican 	COS 	cos
+Cree 	CRE 	cre
+Carrier 	CRR 	crx, caf
+Crimean Tatar 	CRT 	crh
+Church Slavonic 	CSL 	chu
+Czech 	CSY 	ces
+Danish 	DAN 	dan
+Dargwa 	DAR 	dar
+Woods Cree 	DCR 	cwd
+German 	DEU 	deu
+Dogri 	DGR 	doi
+Dhivehi 	DHV (deprecated) 	div
+Dhivehi 	DIV 	div
+Djerma 	DJR 	dje
+Dangme 	DNG 	ada
+Dinka 	DNK 	din
+Dari 	DRI 	prs
+Dungan 	DUN 	dng
+Dzongkha 	DZN 	dzo
+Ebira 	EBI 	igb
+Eastern Cree 	ECR 	crj, crl
+Edo 	EDO 	bin
+Efik 	EFI 	efi
+Greek 	ELL 	ell
+English 	ENG 	eng
+Erzya 	ERZ 	myv
+Spanish 	ESP 	spa
+Estonian 	ETI 	est
+Basque 	EUQ 	eus
+Evenki 	EVK 	evn
+Even 	EVN 	eve
+Ewe 	EWE 	ewe
+French Antillean 	FAN 	acf
+Farsi 	FAR 	fas
+Finnish 	FIN 	fin
+Fijian 	FJI 	fij
+Flemish 	FLE 	vls
+Forest Nenets 	FNE 	enf
+Fon 	FON 	fon
+Faroese 	FOS 	fao
+French 	FRA 	fra
+Frisian 	FRI 	fry
+Friulian 	FRL 	fur
+Futa 	FTA 	fuf
+Fulani 	FUL 	ful
+Ga 	GAD 	gaa
+Gaelic 	GAE 	gla
+Gagauz 	GAG 	gag
+Galician 	GAL 	glg
+Garshuni 	GAR
+Garhwali 	GAW 	gbm
+Ge'ez 	GEZ 	gez
+Gilyak 	GIL 	niv
+Gumuz 	GMZ 	guk
+Gondi 	GON 	gon
+Greenlandic 	GRN 	kal
+Garo 	GRO 	grt
+Guarani 	GUA 	grn
+Gujarati 	GUJ 	guj
+Haitian 	HAI 	hat
+Halam 	HAL 	flm
+Harauti 	HAR 	hoj
+Hausa 	HAU 	hau
+Hawaiin 	HAW 	haw
+Hammer-Banna 	HBN 	amf
+Hiligaynon 	HIL 	hil
+Hindi 	HIN 	hin
+High Mari 	HMA 	mrj
+Hindko 	HND 	hno, hnd
+Ho 	HO 	hoc
+Harari 	HRI 	har
+Croatian 	HRV 	hrv
+Hungarian 	HUN 	hun
+Armenian 	HYE 	hye
+Igbo 	IBO 	ibo
+Ijo 	IJO 	ijc
+Ilokano 	ILO 	ilo
+Indonesian 	IND 	ind
+Ingush 	ING 	inh
+Inuktitut 	INU 	iku
+Phonetic transcription—IPA conventions 	IPPH
+Irish 	IRI 	gle
+Irish Traditional 	IRT 	gle
+Icelandic 	ISL 	isl
+Inari Sami 	ISM 	smn
+Italian 	ITA 	ita
+Hebrew 	IWR 	heb
+Javanese 	JAV 	jav
+Yiddish 	JII 	yid
+Japanese 	JAN 	jpn
+Judezmo 	JUD 	lad
+Jula 	JUL 	dyu
+Kabardian 	KAB 	kbd
+Kachchi 	KAC 	kfr
+Kalenjin 	KAL 	kln
+Kannada 	KAN 	kan
+Karachay 	KAR 	krc
+Georgian 	KAT 	kat
+Kazakh 	KAZ 	kaz
+Kebena 	KEB 	ktb
+Khutsuri Georgian 	KGE 	kat
+Khakass 	KHA 	kjh
+Khanty-Kazim 	KHK 	kca
+Khmer 	KHM 	khm
+Khanty-Shurishkar 	KHS 	kca
+Khanty-Vakhi 	KHV 	kca
+Khowar 	KHW 	khw
+Kikuyu 	KIK 	kik
+Kirghiz 	KIR 	kir
+Kisii 	KIS 	kqs, kss
+Kokni 	KKN 	kex
+Kalmyk 	KLM 	xal
+Kamba 	KMB 	kam
+Kumaoni 	KMN 	kfy
+Komo 	KMO 	kmw
+Komso 	KMS 	kxc
+Kanuri 	KNR 	kau
+Kodagu 	KOD 	kfa
+Korean Old Hangul 	KOH 	okm
+Konkani 	KOK 	kok
+Kikongo 	KON 	ktu
+Komi-Permyak 	KOP 	koi
+Korean 	KOR 	kor
+Komi-Zyrian 	KOZ 	kpv
+Kpelle 	KPL 	kpe
+Krio 	KRI 	kri
+Karakalpak 	KRK 	kaa
+Karelian 	KRL 	krl
+Karaim 	KRM 	kdr
+Karen 	KRN 	kar
+Koorete 	KRT 	kqy
+Kashmiri 	KSH 	kas
+Khasi 	KSI 	kha
+Kildin Sami 	KSM 	sjd
+Kui 	KUI 	kxu
+Kulvi 	KUL 	kfx
+Kumyk 	KUM 	kum
+Kurdish 	KUR 	kur
+Kurukh 	KUU 	kru
+Kuy 	KUY 	kdt
+Koryak 	KYK 	kpy
+Ladin 	LAD 	lld
+Lahuli 	LAH 	bfu
+Lak 	LAK 	lbe
+Lambani 	LAM 	lmn
+Lao 	LAO 	lao
+Latin 	LAT 	lat
+Laz 	LAZ 	lzz
+L-Cree 	LCR 	crm
+Ladakhi 	LDK 	lbj
+Lezgi 	LEZ 	lez
+Lingala 	LIN 	lin
+Low Mari 	LMA 	mhr
+Limbu 	LMB 	lif
+Lomwe 	LMW 	ngl
+Lower Sorbian 	LSB 	dsb
+Lule Sami 	LSM 	smj
+Lithuanian 	LTH 	lit
+Luxembourgish 	LTZ 	ltz
+Luba 	LUB 	lua, lub
+Luganda 	LUG 	lug
+Luhya 	LUH 	luy
+Luo 	LUO 	luo
+Latvian 	LVI 	lav
+Majang 	MAJ 	mpe
+Makua 	MAK 	vmw
+Malayalam Traditional 	MAL 	mal
+Mansi 	MAN 	mns
+Mapudungun 	MAP 	arn
+Marathi 	MAR 	mar
+Marwari 	MAW 	mwr
+Mbundu 	MBN 	kmb
+Manchu 	MCH 	mnc
+Moose Cree 	MCR 	crm
+Mende 	MDE 	men
+Me'en 	MEN 	mym
+Mizo 	MIZ 	lus
+Macedonian 	MKD 	mkd
+Male 	MLE 	mdy
+Malagasy 	MLG 	mlg
+Malinke 	MLN 	mlq
+Malayalam Reformed 	MLR 	mal
+Malay 	MLY 	msa
+Mandinka 	MND 	mnk
+Mongolian 	MNG 	mon
+Manipuri 	MNI 	mni
+Maninka 	MNK 	man
+Manx Gaelic 	MNX 	glv
+Mohawk 	MOH 	moh
+Moksha 	MOK 	mdf
+Moldavian 	MOL 	mol
+Mon 	MON 	mnw
+Moroccan 	MOR
+Maori 	MRI 	mri
+Maithili 	MTH 	mai
+Maltese 	MTS 	mlt
+Mundari 	MUN 	unr
+Naga-Assamese 	NAG 	nag
+Nanai 	NAN 	gld
+Naskapi 	NAS 	nsk
+N-Cree 	NCR 	csw
+Ndebele 	NDB 	nbl, nde
+Ndonga 	NDG 	ndo
+Nepali 	NEP 	nep
+Newari 	NEW 	new
+Nagari 	NGR
+Norway House Cree 	NHC 	csw
+Nisi 	NIS 	dap
+Niuean 	NIU 	niu
+Nkole 	NKL 	nyn
+N'Ko 	NKO 	nqo
+Dutch 	NLD 	nld
+Nogai 	NOG 	nog
+Norwegian 	NOR 	nob
+Northern Sami 	NSM 	sme
+Northern Tai 	NTA 	nod
+Esperanto 	NTO 	epo
+Nynorsk 	NYN 	nno
+Occitan 	OCI 	oci
+Oji-Cree 	OCR 	ojs
+Ojibway 	OJB 	oji
+Odia (formerly Oriya) 	ORI 	ori
+Oromo 	ORO 	orm
+Ossetian 	OSS 	oss
+Palestinian Aramaic 	PAA 	sam
+Pali 	PAL 	pli
+Punjabi 	PAN 	pan
+Palpa 	PAP 	plp
+Pashto 	PAS 	pus
+Polytonic Greek 	PGR 	ell
+Filipino 	PIL 	fil
+Palaung 	PLG 	pce, rbb, pll
+Polish 	PLK 	pol
+Provencal 	PRO 	pro
+Portuguese 	PTG 	por
+Chin 	QIN 	bgr, cnh, cnw, czt, sez, tcp, csy, ctd, flm, pck, tcz, zom, cmr, dao, hlt, cka, cnk, mrh, mwg, cbl, cnb, csh
+Rajasthani 	RAJ 	raj
+R-Cree 	RCR 	atj
+Russian Buriat 	RBU 	bxr
+Riang 	RIA 	ria
+Rhaeto-Romanic 	RMS 	roh
+Romanian 	ROM 	ron
+Romany 	ROY 	rom
+Rusyn 	RSY 	rue
+Ruanda 	RUA 	kin
+Russian 	RUS 	rus
+Sadri 	SAD 	sck
+Sanskrit 	SAN 	san
+Santali 	SAT 	sat
+Sayisi 	SAY 	chp
+Sekota 	SEK 	xan
+Selkup 	SEL 	sel
+Sango 	SGO 	sag
+Shan 	SHN 	shn
+Sibe 	SIB 	sjo
+Sidamo 	SID 	sid
+Silte Gurage 	SIG 	xst
+Skolt Sami 	SKS 	sms
+Slovak 	SKY 	slk
+Slavey 	SLA 	scs
+Slovenian 	SLV 	slv
+Somali 	SML 	som
+Samoan 	SMO 	smo
+Sena 	SNA 	she
+Sindhi 	SND 	snd
+Sinhalese 	SNH 	sin
+Soninke 	SNK 	snk
+Sodo Gurage 	SOG 	gru
+Sotho 	SOT 	nso, sot
+Albanian 	SQI 	sqi
+Serbian 	SRB 	srp
+Saraiki 	SRK 	skr
+Serer 	SRR 	srr
+South Slavey 	SSL 	xsl
+Southern Sami 	SSM 	sma
+Suri 	SUR 	suq
+Svan 	SVA 	sva
+Swedish 	SVE 	swe
+Swadaya Aramaic 	SWA 	aii
+Swahili 	SWK 	swa
+Swazi 	SWZ 	ssw
+Sutu 	SXT 	ngo
+Syriac 	SYR 	syr
+Tabasaran 	TAB 	tab
+Tajiki 	TAJ 	tgk
+Tamil 	TAM 	tam
+Tatar 	TAT 	tat
+TH-Cree 	TCR 	cwd
+Telugu 	TEL 	tel
+Tongan 	TGN 	ton
+Tigre 	TGR 	tig
+Tigrinya 	TGY 	tir
+Thai 	THA 	tha
+Tahitian 	THT 	tah
+Tibetan 	TIB 	bod
+Turkmen 	TKM 	tuk
+Temne 	TMN 	tem
+Tswana 	TNA 	tsn
+Tundra Nenets 	TNE 	enh
+Tonga 	TNG 	toi
+Todo 	TOD 	xal
+Turkish 	TRK 	tur
+Tsonga 	TSG 	tso
+Turoyo Aramaic 	TUA 	tru
+Tulu 	TUL 	tcy
+Tuvin 	TUV 	tyv
+Twi 	TWI 	aka
+Udmurt 	UDM 	udm
+Ukrainian 	UKR 	ukr
+Urdu 	URD 	urd
+Upper Sorbian 	USB 	hsb
+Uyghur 	UYG 	uig
+Uzbek 	UZB 	uzb
+Venda 	VEN 	ven
+Vietnamese 	VIT 	vie
+Wa 	WA 	wbm
+Wagdi 	WAG 	wbr
+West-Cree 	WCR 	crk
+Welsh 	WEL 	cym
+Wolof 	WLF 	wol
+Tai Lue 	XBD 	khb
+Xhosa 	XHS 	xho
+Sakha 	YAK 	sah
+Yoruba 	YBA 	yor
+Y-Cree 	YCR
+Yi Classic 	YIC
+Yi Modern 	YIM 	iii
+Chinese, Hong Kong SAR 	ZHH 	zho
+Chinese Phonetic 	ZHP 	zho
+Chinese Simplified 	ZHS 	zho
+Chinese Traditional 	ZHT 	zho
+Zande 	ZND 	zne
+Zulu 	ZUL 	zul
+'aalt' 	Access All Alternates
+'abvf' 	Above-base Forms
+'abvm' 	Above-base Mark Positioning
+'abvs' 	Above-base Substitutions
+'afrc' 	Alternative Fractions
+'akhn' 	Akhands
+'blwf' 	Below-base Forms
+'blwm' 	Below-base Mark Positioning
+'blws' 	Below-base Substitutions
+'calt' 	Contextual Alternates
+'case' 	Case-Sensitive Forms
+'ccmp' 	Glyph Composition / Decomposition
+'cfar' 	Conjunct Form After Ro
+'cjct' 	Conjunct Forms
+'clig' 	Contextual Ligatures
+'cpct' 	Centered CJK Punctuation
+'cpsp' 	Capital Spacing
+'cswh' 	Contextual Swash
+'curs' 	Cursive Positioning
+cv01-cv99' 	Character Variants
+'c2pc' 	Petite Capitals From Capitals
+'c2sc' 	Small Capitals From Capitals
+'dist' 	Distances
+'dlig' 	Discretionary Ligatures
+'dnom' 	Denominators
+'expt' 	Expert Forms
+'falt' 	Final Glyph on Line Alternates
+'fin2' 	Terminal Forms #2
+'fin3' 	Terminal Forms #3
+'fina' 	Terminal Forms
+'frac' 	Fractions
+'fwid' 	Full Widths
+'half' 	Half Forms
+'haln' 	Halant Forms
+'halt' 	Alternate Half Widths
+'hist' 	Historical Forms
+'hkna' 	Horizontal Kana Alternates
+'hlig' 	Historical Ligatures
+'hngl' 	Hangul
+'hojo' 	Hojo Kanji Forms (JIS X 0212-1990 Kanji Forms)
+'hwid' 	Half Widths
+'init' 	Initial Forms
+'isol' 	Isolated Forms
+'ital' 	Italics
+'jalt' 	Justification Alternates
+'jp78' 	JIS78 Forms
+'jp83' 	JIS83 Forms
+'jp90' 	JIS90 Forms
+'jp04' 	JIS2004 Forms
+'kern' 	Kerning
+'lfbd' 	Left Bounds
+'liga' 	Standard Ligatures
+'ljmo' 	Leading Jamo Forms
+'lnum' 	Lining Figures
+'locl' 	Localized Forms
+'ltra' 	Left-to-right alternates
+'ltrm' 	Left-to-right mirrored forms
+'mark' 	Mark Positioning
+'med2' 	Medial Forms #2
+'medi' 	Medial Forms
+'mgrk' 	Mathematical Greek
+'mkmk' 	Mark to Mark Positioning
+'mset' 	Mark Positioning via Substitution
+'nalt' 	Alternate Annotation Forms
+'nlck' 	NLC Kanji Forms
+'nukt' 	Nukta Forms
+'numr' 	Numerators
+'onum' 	Oldstyle Figures
+'opbd' 	Optical Bounds
+'ordn' 	Ordinals
+'ornm' 	Ornaments
+'palt' 	Proportional Alternate Widths
+'pcap' 	Petite Capitals
+'pkna' 	Proportional Kana
+'pnum' 	Proportional Figures
+'pref' 	Pre-Base Forms
+'pres' 	Pre-base Substitutions
+'pstf' 	Post-base Forms
+'psts' 	Post-base Substitutions
+'pwid' 	Proportional Widths
+'qwid' 	Quarter Widths
+'rand' 	Randomize
+'rkrf' 	Rakar Forms
+'rlig' 	Required Ligatures
+'rphf' 	Reph Forms
+'rtbd' 	Right Bounds
+'rtla' 	Right-to-left alternates
+'rtlm' 	Right-to-left mirrored forms
+'ruby' 	Ruby Notation Forms
+'salt' 	Stylistic Alternates
+'sinf' 	Scientific Inferiors
+'size' 	Optical size
+'smcp' 	Small Capitals
+'smpl' 	Simplified Forms
+'ss01' 	Stylistic Set 1
+'ss02' 	Stylistic Set 2
+'ss03' 	Stylistic Set 3
+'ss04' 	Stylistic Set 4
+'ss05' 	Stylistic Set 5
+'ss06' 	Stylistic Set 6
+'ss07' 	Stylistic Set 7
+'ss08' 	Stylistic Set 8
+'ss09' 	Stylistic Set 9
+'ss10' 	Stylistic Set 10
+'ss11' 	Stylistic Set 11
+'ss12' 	Stylistic Set 12
+'ss13' 	Stylistic Set 13
+'ss14' 	Stylistic Set 14
+'ss15' 	Stylistic Set 15
+'ss16' 	Stylistic Set 16
+'ss17' 	Stylistic Set 17
+'ss18' 	Stylistic Set 18
+'ss19' 	Stylistic Set 19
+'ss20' 	Stylistic Set 20
+'subs' 	Subscript
+'sups' 	Superscript
+'swsh' 	Swash
+'titl' 	Titling
+'tjmo' 	Trailing Jamo Forms
+'tnam' 	Traditional Name Forms
+'tnum' 	Tabular Figures
+'trad' 	Traditional Forms
+'twid' 	Third Widths
+'unic' 	Unicase
+'valt' 	Alternate Vertical Metrics
+'vatu' 	Vattu Variants
+'vert' 	Vertical Writing
+'vhal' 	Alternate Vertical Half Metrics
+'vjmo' 	Vowel Jamo Forms
+'vkna' 	Vertical Kana Alternates
+'vkrn' 	Vertical Kerning
+'vpal' 	Proportional Alternate Vertical Metrics
+'vrt2' 	Vertical Alternates and Rotation
+'zero' 	Slashed Zero
+hang  hanging baseline
+icfb ideographic character face bottom edge baseline
+icft ideographic character face top edge baseline
+ideo ideographic em-box bottom edge baseline
+idtp ideographic em-box top edge baseline
+math baseline about which mathematical 
+romn baseline for alphabetic

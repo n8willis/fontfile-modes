@@ -1,0 +1,15 @@
+namespace a0 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a1 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a2 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a3 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a4 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace a5 = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+
+transformation =
+  [ a0:defaultValue = "1" ] attribute xScale { xsd:decimal }?,
+  [ a1:defaultValue = "0" ] attribute xyScale { xsd:decimal }?,
+  [ a2:defaultValue = "0" ] attribute yxScale { xsd:decimal }?,
+  [ a3:defaultValue = "1" ] attribute yScale { xsd:decimal }?,
+  [ a4:defaultValue = "0" ] attribute xOffset { xsd:decimal }?,
+  [ a5:defaultValue = "0" ] attribute yOffset { xsd:decimal }?

@@ -1,0 +1,75 @@
+avar 	Axis variation
+acnt	Accent attachment
+ankr	Anchor point
+avar	Axis variation
+BASE 	Baseline data
+bdat	Bitmap data
+BDF  	X11 BDF header
+bhed	Bitmap font header
+bloc 	Bitmap location data
+bsln 	Baseline data
+CBDT 	Color bitmap data
+CBLC 	Color bitmap location data
+CFF 	Compact Font Format
+cmap 	Character to glyph mapping
+COLR 	Color table
+CPAL 	Color palette table
+cvar 	Variations on CVT table
+cvt 	Control value table
+DSIG 	Digital signature
+EBDT 	Embedded bitmap data
+EBLC 	Embedded bitmap location
+EBSC	Embedded bitmap scaling control
+fdsc	Font descriptor
+feat 	Layout feature table
+FFTM 	FontForge timestamp
+fmtx	Font metrics
+fond	Font family compatibility
+fpgm 	Font program
+fvar	Font variation
+gasp	Grid-fitting and scan-conversion procedure
+gasp 	Grid-fitting/Scan-conversion (optional table)
+GDEF 	Glyph definition data
+Glat	Glyph attributes table
+Gloc	Indexes for Glat table
+glyf	Glyph outline
+GPOS 	Glyph positioning data
+GSUB 	Glyph substitution data
+gvar	Glyph variation
+hdmx 	Horizontal device metrics
+head 	Font header
+hhea 	Horizontal header
+hmtx 	Horizontal metrics
+JSTF 	Justification data
+just	Justification
+kern 	Kerning
+kerx	Extended kerning
+lcar	Ligature caret
+loca	Glyph location
+ltag	Language tag
+LTSH 	Linear threshold data
+MATH 	Mathematical typesetting
+maxp 	Maximum profile
+meta	Metadata
+mort	Metamorphosis (deprecated)
+morx	Extended metamorphosis
+name 	Name
+opbd 	Optical bounds
+OS/2 	OS/2 and Windows specific metrics
+PCLT 	PCL 5 data
+PfEd 	FontForge's personal table
+post	Glyph name and PostScript compatibility
+prep	Control value program
+prop 	Glyph properties
+sbix	Extended bitmaps
+Silf	Main logic, including finite state machine for rule matching, constraints, and rule action code
+Sill	Language table, containing mappings between language codes and features
+SVG 	The SVG (Scalable Vector Graphics) table
+TeX 	TeX information
+trak	Tracking
+VDMX 	Vertical device metrics
+vhea 	Vertical Metrics header
+vmtx 	Vertical Metrics
+VORG 	Vertical Origin (optional table)
+xref	Cross-reference
+Zapf	Glyph reference 

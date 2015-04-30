@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rng:grammar xmlns:rng="http://relaxng.org/ns/structure/1.0" ns="" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+<rng:include href="../GLIF1/contour.rng">
+<rng:define name="contour">
+
+<rng:ref name="contour"/>
+<rng:optional>
+<rng:attribute name="identifier">
+<rng:data type="string"/>
+</rng:attribute>
+</rng:optional>
+
+
+</rng:define>
+</rng:include>
+</rng:grammar>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rng:grammar xmlns:rng="http://relaxng.org/ns/structure/1.0" ns="" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+<rng:define name="point">
+<rng:attribute name="x">
+<rng:data type="decimal"/>
+</rng:attribute>
+<rng:attribute name="y">
+<rng:data type="decimal"/>
+</rng:attribute>
+<rng:optional>
+<rng:attribute name="type" a0:defaultValue="offcurve" xmlns:a0="http://relaxng.org/ns/compatibility/annotations/1.0">
+
+<rng:choice>
+<rng:value>move</rng:value>
+<rng:value>line</rng:value>
+<rng:value>offcurve</rng:value>
+<rng:value>curve</rng:value>
+<rng:value>qcurve</rng:value>
+</rng:choice>
+
+</rng:attribute>
+</rng:optional>
+<rng:optional>
+<rng:attribute name="smooth" a1:defaultValue="no" xmlns:a1="http://relaxng.org/ns/compatibility/annotations/1.0">
+
+<rng:choice>
+<rng:value>yes</rng:value>
+<rng:value>no</rng:value>
+</rng:choice>
+
+</rng:attribute>
+</rng:optional>
+<rng:optional>
+<rng:attribute name="name">
+<rng:data type="string"/>
+</rng:attribute>
+</rng:optional>
+</rng:define>
+</rng:grammar>

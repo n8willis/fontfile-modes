@@ -1,0 +1,22 @@
+(defvar fontfile-fea-literals
+  '("dflt") )
+fontfile-fea-literals
+
+(regexp-opt fontfile-fea-literals 'words)
+"\\<\\(dflt\\)\\>"
+
+(defvar fontfile-fea-types
+  '("HorizAxis.BaseTagList" "HorizAxis.BaseScriptList" "HorizAxis.MinMax" "VertAxis.BaseTagList" "VertAxis.BaseScriptList" "VertAxis.MinMax" "GlyphClassDef" "Attach" "LigatureCaretByDev" "LigatureCaretByIndex" "LigatureCaretByPos" "MarkAttachClass" "FontRevision" "CaretOffset" "Ascender" "Descender" "LineGap" "Panose" "TypoAscender" "TypoDescender" "TypoLineGap" "winAscent" "winDescent" "UnicodeRange" "CodePageRange" "XHeight" "CapHeight" "Vendor" "sizemenuname" "VertTypoAscender" "VertTypoDescender" "VertTypoLineGap" "VertOriginY" "VertAdvanceY") )
+fontfile-fea-types
+
+(regexp-opt fontfile-fea-types 'words)
+"\\<\\(A\\(?:scender\\|ttach\\)\\|C\\(?:a\\(?:\\(?:pHeigh\\|retOffse\\)t\\)\\|odePageRange\\)\\|Descender\\|FontRevision\\|GlyphClassDef\\|HorizAxis\\.\\(?:Base\\(?:\\(?:Script\\|Tag\\)List\\)\\|MinMax\\)\\|Li\\(?:gatureCaretBy\\(?:Dev\\|Index\\|Pos\\)\\|neGap\\)\\|MarkAttachClass\\|Panose\\|Typo\\(?:Ascender\\|Descender\\|LineGap\\)\\|UnicodeRange\\|Ve\\(?:ndor\\|rt\\(?:A\\(?:dvanceY\\|xis\\.\\(?:Base\\(?:\\(?:Script\\|Tag\\)List\\)\\|MinMax\\)\\)\\|OriginY\\|Typo\\(?:Ascender\\|Descender\\|LineGap\\)\\)\\)\\|XHeight\\|sizemenuname\\|win\\(?:\\(?:A\\|De\\)scent\\)\\)\\>"
+
+
+
+(defvar fontfile-fea-keywords 
+  '("anchor" "anchorDef" "anonymous" "anon" "by" "contour" "contourpoint" "cursive" "device" "enumerate" "enum" "excludeDFLT" "exclude_dflt" "feature" "from" "ignore" "IgnoreBaseGlyphs" "IgnoreLigatures" "IgnoreMarks" "MarkAttachmentType" "UseMarkFilteringSet" "include" "includeDFLT" "include_dflt" "language" "languagesystem" "lookup" "lookupflag" "mark" "markClass" "nameid" "NULL" "parameters" "position" "pos" "required" "RightToLeft" "reversesub" "rsub" "script" "substitute" "sub" "subtable" "table" "useExtension" "valueRecordDef") )
+fontfile-fea-keywords
+
+(regexp-opt fontfile-fea-keywords 'words)
+"\\<\\(Ignore\\(?:\\(?:BaseGlyph\\|Ligature\\|Mark\\)s\\)\\|MarkAttachmentType\\|NULL\\|RightToLeft\\|UseMarkFilteringSet\\|an\\(?:chor\\(?:Def\\)?\\|on\\(?:ymous\\)?\\)\\|by\\|c\\(?:ontour\\(?:point\\)?\\|ursive\\)\\|device\\|e\\(?:num\\(?:erate\\)?\\|xclude\\(?:DFLT\\|_dflt\\)\\)\\|f\\(?:eature\\|rom\\)\\|i\\(?:gnore\\|nclude\\(?:DFLT\\|_dflt\\)?\\)\\|l\\(?:anguage\\(?:system\\)?\\|ookup\\(?:flag\\)?\\)\\|mark\\(?:Class\\)?\\|nameid\\|p\\(?:arameters\\|os\\(?:ition\\)?\\)\\|r\\(?:e\\(?:quired\\|versesub\\)\\|sub\\)\\|s\\(?:cript\\|ub\\(?:\\(?:stitut\\|tabl\\)e\\)?\\)\\|table\\|useExtension\\|valueRecordDef\\)\\>"

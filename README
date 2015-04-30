@@ -1,0 +1,87 @@
+Emacs fontfile modes
+--------------------
+
+This is a collection of Major Modes for Emacs that are designed
+to facilitate reading, ediing, and debugging files in various
+font-development formats.
+
+The formats supported are NOT binary font files themselves (such
+as OpenType (.otf), TrueType (.ttf) or PostScript Type1 (.t1). 
+To edit these formats, you need a font editor, such as the
+free-software application FontForge. [1]
+
+The formats supported DO include some font source formats, but
+none of these modes is intended to turn Emacs into a visual font
+editor.  For that, you again need a font-editing application like
+FontForge.
+
+With all that negativity out of the way, here's what these modes
+actually DO allow you to edit:
+
+* OpenType feature-definition files (.fea)
+* Unified Font Object (UFO) glyph files (.glif)
+* FontForge spline-font database files (.sfd)
+* FontForge native (i.e., non-Python) scripts (.pe or .ff)
+* FontTools / TTX files (.ttx)
+
+
+INSTALLATION:
+-------------
+
+These Emacs modes are defined in Emacs Lisp (.el) files. By
+default, they expect to find themselves in your .emacs.d 
+directory, so if you don't know what else to try, copy them
+(including the containing folder "emacs-fontmodes") into the
+directory called .emacs.d that lives inside your home folder.
+
+Next, you can TEST each mode by opening the appropriate file in
+Emacs, typing 
+M-x
+
+then typing 
+eval-buffer
+
+and opening a file of the coresponding format.
+
+If you want Emacs to automatically load the relevant mode whenever
+you open a support file format, just add a hook to your .emacs
+file.  For example, to automatically support .fea files, add
+the line:
+
+(add-hook 'fontfile-fea-mode)
+
+Anywhere in your .emacs file.
+
+
+USAGE:
+------
+
+All five modes support the following features:
+
+* Syntax highlighting
+* Auto-indentation
+* Highlighting of well-know font table and tag types
+* Optional help messages to define keywords and terms
+
+Syntax highlighting and indentation should work automatically. 
+The built-in help requires you to turn on a Minor Mode called 
+"Eldoc."  To do so, type
+M-x
+
+then type
+turn-on-eldoc-mode
+
+Subsequently, whenever you pause the mouse cursor over a 
+keyword, function, or well-know table/tag, Emacs will show you
+a brief description string in the message line at the bottom
+of the window.
+
+TTX and UFO's .glif are both XML-based formats, which enables
+two additional features:
+
+* Automatic validation (ensuring your edits remain well-formed XML)
+* Element folding (letting you collapse or expand any element)
+
+For TTX in particular, element folding can make navigating the
+file much faster, since TTX files can be rather large.
+

@@ -1,0 +1,43 @@
+avar 	axis variation
+BASE 	baseline data	
+bsln 	baseline data
+BDF  	X11 BDF header
+bdat 	bitmap data
+bhed 	bitmap font header
+bloc 	bitmap location data	
+CFF 	Compact Font Format
+cmap 	character code mapping
+cvar 	variations on cvt table
+cvt 	control value table
+EBDT 	embedded bitmap data
+EBLC 	embedded bitmap location
+EBSC 	embedded bitmap scaling
+feat 	layout feature table	
+FFTM 	FontForge timestamp
+fpgm 	font program	
+fvar 	font variations
+gasp 	grid-fitting and scan conversion
+GDEF 	glyph definition	
+glyf 	glyph outline
+GPOS 	glyph positioning
+GSUB 	glyph substitution
+gvar 	glyph variations
+head 	font header
+hhea 	horizontal header
+hmtx 	horizontal metrics
+kern 	kerning
+lcar 	ligature caret
+loca 	glyph location
+MATH 	mathematical typesetting
+maxp 	maximum profile
+mort 	metamorphosis
+morx 	extended metamorphosis
+name 	name
+opbd 	optical bounds
+PfEd 	FontForge's personal table
+post 	glyph name and postscript compatibility
+prep 	cvt program
+prop 	glyph properties
+TeX 	TeX information
+vhea 	vertical header
+vmtx 	vertical metrics

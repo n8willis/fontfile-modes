@@ -1,0 +1,8 @@
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+
+anchor =
+  attribute x { xsd:decimal },
+  attribute y { xsd:decimal },
+  attribute name { xsd:string }?,
+  attribute color { color }?,
+  attribute identifier { xsd:string }?

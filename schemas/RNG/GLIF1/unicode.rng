@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rng:grammar xmlns:rng="http://relaxng.org/ns/structure/1.0" ns="" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+<rng:define name="unicode">
+<rng:attribute name="hex">
+<rng:data type="hexBinary"/>
+</rng:attribute>
+</rng:define>
+</rng:grammar>

@@ -1,0 +1,6 @@
+default namespace = ""
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+
+outline =
+  (element component { component }
+   | element contour { contour })*

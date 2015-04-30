@@ -1,0 +1,47 @@
+;;
+;; fontfile-ttx-mode
+;; 
+;; An Emacs major mode for editing UFO .glif files
+;;
+;; Author: Nathan Willis
+;;         nwillis@glyphography.com
+;;
+;; License: GNU GPL v3 or later
+;;
+;;
+;; Notes:
+;;
+;; - Defined to follow the UFO spec from
+;;   
+;;
+
+;;
+;; Top-level setup
+;;
+(require 'nxml-mode)
+(push "./schemas/RNC/ttx-schemas.xml" rng-schema-locating-files)
+(push (cons (concat "\\." (regexp-opt '("ttx") t)
+                      "\\'") 'nxml-mode) auto-mode-alist)
+
+
+;;
+;; Eldoc documentation hints
+;;
+
+;; The documentation-string array was pulled out into a separate
+;; file for brevity here and to make updating the docs easier.
+(load-file "./fontfile-tables-eldoc.el")
+
+;;
+;; Entry point
+;;
+(define-derived-mode fontfile-ttx-mode nxml-mode "FontTools TTX"
+  "Major mode for editing FontTools TTX files."
+  :syntax-table fontfile-ttx-syntax-table
+
+;;  (setq font-lock-defaults fontfile-ttx-font-lock-defaults)
+)
+;;
+;; Boom goes the dynamite
+;;
+(provide 'fontfile-ttx-mode)

@@ -1,0 +1,553 @@
+default namespace = ""
+
+start =
+  element ttFont {
+    attribute sfntVersion { text },
+    attribute ttLibVersion { xsd:decimal },
+    element GlyphOrder {
+      element GlyphID {
+        attribute id { xsd:integer },
+        attribute name { xsd:NMTOKEN }
+      }+
+    },
+    element head {
+      tableVersion,
+      element fontRevision {
+        attribute value { xsd:decimal }
+      },
+      element checkSumAdjustment {
+        attribute value { xsd:NMTOKEN }
+      },
+      element magicNumber {
+        attribute value { xsd:NMTOKEN }
+      },
+      element flags {
+        attribute value { text }
+      },
+      element unitsPerEm {
+        attribute value { xsd:integer }
+      },
+      element created {
+        attribute value { text }
+      },
+      element modified {
+        attribute value { text }
+      },
+      element xMin {
+        attribute value { xsd:integer }
+      },
+      element yMin {
+        attribute value { xsd:integer }
+      },
+      element xMax {
+        attribute value { xsd:integer }
+      },
+      element yMax {
+        attribute value { xsd:integer }
+      },
+      element macStyle {
+        attribute value { text }
+      },
+      element lowestRecPPEM {
+        attribute value { xsd:integer }
+      },
+      element fontDirectionHint {
+        attribute value { xsd:integer }
+      },
+      element indexToLocFormat {
+        attribute value { xsd:integer }
+      },
+      element glyphDataFormat {
+        attribute value { xsd:integer }
+      }
+    },
+    element hhea {
+      tableVersion,
+      element ascent {
+        attribute value { xsd:integer }
+      },
+      element descent {
+        attribute value { xsd:integer }
+      },
+      element lineGap {
+        attribute value { xsd:integer }
+      },
+      element advanceWidthMax {
+        attribute value { xsd:integer }
+      },
+      element minLeftSideBearing {
+        attribute value { xsd:integer }
+      },
+      element minRightSideBearing {
+        attribute value { xsd:integer }
+      },
+      element xMaxExtent {
+        attribute value { xsd:integer }
+      },
+      element caretSlopeRise {
+        attribute value { xsd:integer }
+      },
+      element caretSlopeRun {
+        attribute value { xsd:integer }
+      },
+      element caretOffset {
+        attribute value { xsd:integer }
+      },
+      element reserved0 {
+        attribute value { xsd:integer }
+      },
+      element reserved1 {
+        attribute value { xsd:integer }
+      },
+      element reserved2 {
+        attribute value { xsd:integer }
+      },
+      element reserved3 {
+        attribute value { xsd:integer }
+      },
+      element metricDataFormat {
+        attribute value { xsd:integer }
+      },
+      element numberOfHMetrics {
+        attribute value { xsd:integer }
+      }
+    },
+    element maxp {
+      tableVersion,
+      element numGlyphs {
+        attribute value { xsd:integer }
+      },
+      element maxPoints {
+        attribute value { xsd:integer }
+      },
+      element maxContours {
+        attribute value { xsd:integer }
+      },
+      element maxCompositePoints {
+        attribute value { xsd:integer }
+      },
+      element maxCompositeContours {
+        attribute value { xsd:integer }
+      },
+      element maxZones {
+        attribute value { xsd:integer }
+      },
+      element maxTwilightPoints {
+        attribute value { xsd:integer }
+      },
+      element maxStorage {
+        attribute value { xsd:integer }
+      },
+      element maxFunctionDefs {
+        attribute value { xsd:integer }
+      },
+      element maxInstructionDefs {
+        attribute value { xsd:integer }
+      },
+      element maxStackElements {
+        attribute value { xsd:integer }
+      },
+      element maxSizeOfInstructions {
+        attribute value { xsd:integer }
+      },
+      element maxComponentElements {
+        attribute value { xsd:integer }
+      },
+      element maxComponentDepth {
+        attribute value { xsd:integer }
+      }
+    },
+    element OS_2 {
+      element version {
+        attribute value { xsd:integer }
+      },
+      element xAvgCharWidth {
+        attribute value { xsd:integer }
+      },
+      element usWeightClass {
+        attribute value { xsd:integer }
+      },
+      element usWidthClass {
+        attribute value { xsd:integer }
+      },
+      element fsType {
+        attribute value { text }
+      },
+      element ySubscriptXSize {
+        attribute value { xsd:integer }
+      },
+      element ySubscriptYSize {
+        attribute value { xsd:integer }
+      },
+      element ySubscriptXOffset {
+        attribute value { xsd:integer }
+      },
+      element ySubscriptYOffset {
+        attribute value { xsd:integer }
+      },
+      element ySuperscriptXSize {
+        attribute value { xsd:integer }
+      },
+      element ySuperscriptYSize {
+        attribute value { xsd:integer }
+      },
+      element ySuperscriptXOffset {
+        attribute value { xsd:integer }
+      },
+      element ySuperscriptYOffset {
+        attribute value { xsd:integer }
+      },
+      element yStrikeoutSize {
+        attribute value { xsd:integer }
+      },
+      element yStrikeoutPosition {
+        attribute value { xsd:integer }
+      },
+      element sFamilyClass {
+        attribute value { xsd:integer }
+      },
+      element panose {
+        element bFamilyType {
+          attribute value { xsd:integer }
+        },
+        element bSerifStyle {
+          attribute value { xsd:integer }
+        },
+        element bWeight {
+          attribute value { xsd:integer }
+        },
+        element bProportion {
+          attribute value { xsd:integer }
+        },
+        element bContrast {
+          attribute value { xsd:integer }
+        },
+        element bStrokeVariation {
+          attribute value { xsd:integer }
+        },
+        element bArmStyle {
+          attribute value { xsd:integer }
+        },
+        element bLetterForm {
+          attribute value { xsd:integer }
+        },
+        element bMidline {
+          attribute value { xsd:integer }
+        },
+        element bXHeight {
+          attribute value { xsd:integer }
+        }
+      },
+      element ulUnicodeRange1 {
+        attribute value { text }
+      },
+      element ulUnicodeRange2 {
+        attribute value { text }
+      },
+      element ulUnicodeRange3 {
+        attribute value { text }
+      },
+      element ulUnicodeRange4 {
+        attribute value { text }
+      },
+      element achVendID {
+        attribute value { xsd:NCName }
+      },
+      element fsSelection {
+        attribute value { text }
+      },
+      element fsFirstCharIndex {
+        attribute value { xsd:integer }
+      },
+      element fsLastCharIndex {
+        attribute value { xsd:integer }
+      },
+      element sTypoAscender {
+        attribute value { xsd:integer }
+      },
+      element sTypoDescender {
+        attribute value { xsd:integer }
+      },
+      element sTypoLineGap {
+        attribute value { xsd:integer }
+      },
+      element usWinAscent {
+        attribute value { xsd:integer }
+      },
+      element usWinDescent {
+        attribute value { xsd:integer }
+      },
+      element ulCodePageRange1 {
+        attribute value { text }
+      },
+      element ulCodePageRange2 {
+        attribute value { text }
+      }
+    },
+    element hmtx {
+      element mtx {
+        attribute lsb { xsd:integer },
+        attribute name { xsd:NMTOKEN },
+        attribute width { xsd:integer }
+      }+
+    },
+    element cmap {
+      tableVersion,
+      (element cmap_format_4 {
+         attribute language { xsd:integer },
+         attribute platEncID { xsd:integer },
+         attribute platformID { xsd:integer },
+         map+
+       }
+       | element cmap_format_6 {
+           attribute language { xsd:integer },
+           attribute platEncID { xsd:integer },
+           attribute platformID { xsd:integer },
+           map+
+         })+
+    },
+    element fpgm { assembly },
+    element prep { assembly },
+    element cvt {
+      element cv {
+        attribute index { xsd:integer },
+        attribute value { xsd:integer }
+      }+
+    },
+    element loca { empty },
+    element glyf {
+      element TTGlyph {
+        attribute name { xsd:NMTOKEN },
+        attribute xMax { xsd:integer }?,
+        attribute xMin { xsd:integer }?,
+        attribute yMax { xsd:integer }?,
+        attribute yMin { xsd:integer }?,
+        ((element contour {
+            element pt {
+              attribute on { xsd:integer },
+              attribute x { xsd:integer },
+              attribute y { xsd:integer }
+            }+
+          }+,
+          element instructions { assembly })
+         | element component {
+             attribute flags { xsd:NMTOKEN },
+             attribute glyphName { xsd:NCName },
+             attribute scale { xsd:decimal }?,
+             attribute scale01 { xsd:decimal }?,
+             attribute scale10 { xsd:decimal }?,
+             attribute scalex { xsd:decimal }?,
+             attribute scaley { xsd:decimal }?,
+             attribute x { xsd:integer },
+             attribute y { xsd:integer }
+           }*)
+      }+
+    },
+    element name {
+      element namerecord {
+        attribute langID { xsd:NMTOKEN },
+        attribute nameID { xsd:integer },
+        attribute platEncID { xsd:integer },
+        attribute platformID { xsd:integer },
+        text
+      }+
+    },
+    element post {
+      element formatType {
+        attribute value { xsd:decimal }
+      },
+      element italicAngle {
+        attribute value { xsd:decimal }
+      },
+      element underlinePosition {
+        attribute value { xsd:integer }
+      },
+      element underlineThickness {
+        attribute value { xsd:integer }
+      },
+      element isFixedPitch {
+        attribute value { xsd:integer }
+      },
+      element minMemType42 {
+        attribute value { xsd:integer }
+      },
+      element maxMemType42 {
+        attribute value { xsd:integer }
+      },
+      element minMemType1 {
+        attribute value { xsd:integer }
+      },
+      element maxMemType1 {
+        attribute value { xsd:integer }
+      },
+      element psNames { empty },
+      element extraNames {
+        element psName {
+          attribute name { xsd:NCName }
+        }+
+      }
+    },
+    element gasp {
+      element gaspRange {
+        attribute rangeGaspBehavior { xsd:integer },
+        attribute rangeMaxPPEM { xsd:integer }
+      }
+    },
+    element FFTM {
+      element hexdata { text }
+    },
+    element GDEF {
+      Version,
+      element GlyphClassDef {
+        attribute Format { xsd:integer },
+        ClassDef+
+      },
+      element LigCaretList { Coverage },
+      element MarkAttachClassDef {
+        attribute Format { xsd:integer },
+        ClassDef
+      }
+    },
+    element GPOS { Version, ScriptList, FeatureList, LookupList },
+    element GSUB { Version, ScriptList, FeatureList, LookupList },
+    element DSIG {
+      element tableHeader {
+        attribute flag { xsd:NMTOKEN },
+        attribute numSigs { xsd:integer },
+        attribute version { xsd:integer }
+      }
+    }
+  }
+tableVersion =
+  element tableVersion {
+    attribute value { xsd:NMTOKEN }?,
+    attribute version { xsd:integer }?
+  }
+map =
+  element map {
+    attribute code { xsd:NMTOKEN },
+    attribute name { xsd:NMTOKEN }
+  }
+assembly = element assembly { text }
+Version =
+  element Version {
+    attribute value { xsd:decimal }
+  }
+ClassDef =
+  element ClassDef {
+    attribute class { xsd:integer },
+    attribute glyph { xsd:NMTOKEN }
+  }
+Coverage =
+  element Coverage {
+    attribute Format { xsd:integer },
+    element Glyph {
+      attribute value { xsd:NCName }
+    }*
+  }
+ScriptList =
+  element ScriptList {
+    element ScriptRecord {
+      attribute index { xsd:integer },
+      element ScriptTag {
+        attribute value { xsd:NCName }
+      },
+      element Script {
+        element DefaultLangSys {
+          element ReqFeatureIndex {
+            attribute value { xsd:integer }
+          },
+          element FeatureIndex {
+            attribute index { xsd:integer },
+            attribute value { xsd:integer }
+          }*
+        }
+      }
+    }+
+  }
+FeatureList =
+  element FeatureList {
+    element FeatureRecord {
+      attribute index { xsd:integer },
+      element FeatureTag {
+        attribute value { xsd:NCName }
+      },
+      element Feature {
+        element LookupListIndex {
+          attribute index { xsd:integer },
+          attribute value { xsd:integer }
+        }
+      }
+    }+
+  }
+LookupList =
+  element LookupList {
+    element Lookup {
+      attribute index { xsd:integer },
+      element LookupType {
+        attribute value { xsd:integer }
+      },
+      element LookupFlag {
+        attribute value { xsd:integer }
+      },
+      (element LigatureSubst {
+         attribute Format { xsd:integer },
+         attribute index { xsd:integer },
+         element LigatureSet {
+           attribute glyph { xsd:NCName },
+           element Ligature {
+             attribute components { text },
+             attribute glyph { xsd:NCName }
+           }+
+         }+
+       }
+       | element SingleSubst {
+           attribute Format { xsd:integer },
+           attribute index { xsd:integer },
+           element Substitution {
+             attribute in { xsd:NCName },
+             attribute out { xsd:NCName }
+           }+
+         }
+       | element PairPos {
+           attribute Format { xsd:integer },
+           attribute index { xsd:integer },
+           Coverage,
+           element ValueFormat1 {
+             attribute value { xsd:integer }
+           },
+           element ValueFormat2 {
+             attribute value { xsd:integer }
+           },
+           ((element ClassDef1 {
+               attribute Format { xsd:integer },
+               ClassDef+
+             },
+             element ClassDef2 {
+               attribute Format { xsd:integer },
+               ClassDef+
+             },
+             element Class1Record {
+               attribute index { xsd:integer },
+               element Class2Record {
+                 attribute index { xsd:integer },
+                 Value1
+               }+
+             }+)
+            | element PairSet {
+                attribute index { xsd:integer },
+                element PairValueRecord {
+                  attribute index { xsd:integer },
+                  element SecondGlyph {
+                    attribute value { xsd:NCName }
+                  },
+                  Value1
+                }+
+              }+)
+         }+)
+    }+
+  }
+Value1 =
+  element Value1 {
+    attribute XAdvance { xsd:integer }
+  }

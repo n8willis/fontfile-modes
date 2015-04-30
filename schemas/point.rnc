@@ -1,0 +1,8 @@
+default namespace = ""
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+
+include "point1.rnc" {
+  point =
+    point,
+    attribute identifier { xsd:string }?
+}
