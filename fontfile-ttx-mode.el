@@ -65,7 +65,7 @@
 
 ;; The documentation-string array was pulled out into a separate
 ;; file for brevity here and to make updating the docs easier.
-(load-file "~/.emacs.d/emacs-fontmodes/fontfile-tables-eldoc.el")
+(load-file "~/.emacs.d/fontfile-modes/fontfile-tables-eldoc.el")
 
 ;;
 ;; Entry point

@@ -158,7 +158,7 @@
 
 ;; The documentation-string array was pulled out into a separate
 ;; file for brevity here and to make updating the docs easier.
-(load-file "~/.emacs.d/emacs-fontmodes/fontfile-fea-eldoc.el")
+(load-file "~/.emacs.d/fontfile-modes/fontfile-fea-eldoc.el")
 
 ;;
 ;; Entry point
