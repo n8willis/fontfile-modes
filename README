@@ -6,7 +6,7 @@ to facilitate reading, ediing, and debugging files in various
 font-development formats.
 
 The formats supported are NOT binary font files themselves (such
-as OpenType (.otf), TrueType (.ttf) or PostScript Type1 (.t1). 
+as OpenType (.otf), TrueType (.ttf) or PostScript Type1 (.pfb). 
 To edit these formats, you need a font editor, such as the
 free-software application FontForge. [1]
 
@@ -86,3 +86,7 @@ two additional features:
 For TTX in particular, element folding can make navigating the
 file much faster, since TTX files can be rather large.
 
+References
+----------
+
+[1] - http://fontforge.github.io/
