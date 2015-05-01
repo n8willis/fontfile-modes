@@ -53,6 +53,23 @@ the lines:
 
 anywhere in your .emacs file.
 
+Currently, each mode is separate; it is provided in its own ELisp function
+and must be invoked separately.  This was a decision on my part because
+I did not think it exceedingly likely that a user would need to edit
+all five file types in one session on a regular basis.  Maintaining the
+syntax-highlighting and ElDoc structures for all five modes would thus
+consume system resources unnecessarily.
+
+Here are the files to load for each mode
+* OpenType feature files: fontfile-fea-mode.el
+* UFO glyph files: fontfile-ufo-mode.el
+* FontForge SFD files: fontfile-sfd-mode.el
+* FontForge scripts: fontfile-ffs-mode.el
+* FontTools TTX files: fontfile-ttx-mode.el
+
+At the moment (May 1, 2015), I am in the middle of rewriting the
+indentation code using Emacs SMIE, so autoindentation may be
+broken. I hope to have this fixed again within a few days.
 
 USAGE:
 ------
