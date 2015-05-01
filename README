@@ -31,7 +31,7 @@ INSTALLATION:
 These Emacs modes are defined in Emacs Lisp (.el) files. By
 default, they expect to find themselves in your .emacs.d 
 directory, so if you don't know what else to try, copy them
-(including the containing folder "emacs-fontmodes") into the
+(including the containing folder "fontfile-modes") into the
 directory called .emacs.d that lives inside your home folder.
 
 Next, you can TEST each mode by opening the appropriate file in
@@ -48,7 +48,7 @@ you open a support file format, just add a hook to your .emacs
 file.  For example, to automatically support .fea files, add
 the lines:
 
-(add-to-list 'load-path "~/.emacs.d/fontfile-fea-mode.el")
+(add-to-list 'load-path "~/.emacs.d/fontfile-modes")
 (require 'fontfile-fea-mode)
 
 anywhere in your .emacs file.
