@@ -44,7 +44,7 @@ eval-buffer
 and opening a file of the coresponding format.
 
 If you want Emacs to automatically load the relevant mode whenever
-you open a support file format, just add a hook to your .emacs
+you open a supported file format, just add a hook to your .emacs
 file.  For example, to automatically support .fea files, add
 the lines:
 
@@ -69,11 +69,6 @@ Here are the files to load for each mode:
 * FontForge scripts: fontfile-ffs-mode.el
 * FontTools TTX files: fontfile-ttx-mode.el
 
-*** NOTE ***
-At the moment (May 1, 2015), I am in the middle of rewriting the
-indentation code using Emacs SMIE, so autoindentation may be
-broken. I hope to have this fixed again within a few days.
-***      ***
 
 USAGE:
 ------
@@ -84,6 +79,12 @@ All five modes support the following features:
 * Auto-indentation
 * Highlighting of well-know font table and tag types
 * Optional help messages to define keywords and terms
+
+*** NOTE ***
+At the moment (May 1, 2015), I am in the middle of rewriting the
+indentation code using Emacs SMIE, so autoindentation may be
+broken. I hope to have this fixed again within a few days.
+*** ETON ***
 
 Syntax highlighting and indentation should work automatically. 
 The built-in help requires you to turn on a Minor Mode called 
