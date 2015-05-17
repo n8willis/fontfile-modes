@@ -10,7 +10,7 @@
 (set (intern "avar" fontfile-tables-eldoc-obarray) "Axis variation.")
 (set (intern "BASE" fontfile-tables-eldoc-obarray) "Baseline data.")
 (set (intern "bdat" fontfile-tables-eldoc-obarray) "Bitmap data.")
-(set (intern "BDF " fontfile-tables-eldoc-obarray) "X11 BDF header.")
+(set (intern "BDF" fontfile-tables-eldoc-obarray) "X11 BDF header.")
 (set (intern "bhed" fontfile-tables-eldoc-obarray) "Bitmap font header.")
 (set (intern "bloc" fontfile-tables-eldoc-obarray) "Bitmap location data.")
 (set (intern "bsln" fontfile-tables-eldoc-obarray) "Baseline data.")
