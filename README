@@ -84,7 +84,7 @@ All five modes support the following features:
 At the moment (May 1, 2015), I am in the middle of rewriting the
 indentation code using Emacs SMIE, so autoindentation may be
 broken. I hope to have this fixed again within a few days.
-*** ETON ***
+*** ∃TOИ ***
 
 Syntax highlighting and indentation should work automatically. 
 The built-in help requires you to turn on a Minor Mode called 
